@@ -3,19 +3,19 @@ import { Github, Linkedin, Mail, Heart, Code, Coffee } from "lucide-react";
 const socialLinks = [
   {
     icon: Github,
-    href: "#",
+    href: "https://github.com/sidd8542",
     label: "GitHub",
     color: "hover:text-gray-400"
   },
   {
     icon: Linkedin,
-    href: "#",
+    href: "https://www.linkedin.com/in/siddhant-mishra-06a826220/",
     label: "LinkedIn", 
     color: "hover:text-blue-400"
   },
   {
     icon: Mail,
-    href: "mailto:siddhantmishra051@gmail.com",
+    href: "mailto:siddhantmishra51@gmail.com",
     label: "Email",
     color: "hover:text-green-400"
   }
@@ -71,9 +71,9 @@ export const Footer = () => {
           <div className="text-center md:text-right">
             <h4 className="text-lg font-semibold mb-4 text-foreground">Get In Touch</h4>
             <div className="space-y-2 text-muted-foreground">
-              <p>📧 siddhantmishra051@gmail.com</p>
-              <p>📱 +91-8542664751</p>
-              <p>📍 Uttar Pradesh, India</p>
+              <p>📧 siddhantmishra51@gmail.com</p>
+              <p>📱 +91-8542866475</p>
+              <p>📍 Lucknow, Uttar Pradesh, India</p>
             </div>
           </div>
         </div>
@@ -111,7 +111,7 @@ export const Footer = () => {
               <Coffee className="w-4 h-4 text-yellow-600" />
               <span>using</span>
               <Code className="w-4 h-4 text-blue-500" />
-              <span>React + TypeScript</span>
+              <span>React + TypeScript + TailwindCSS</span>
             </div>
           </div>
         </div>
