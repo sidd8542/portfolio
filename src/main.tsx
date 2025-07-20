@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 createRoot(document.getElementById("root")!).render(
   <ThemeProvider
     attribute="class"
-    defaultTheme="light"
+    defaultTheme="dark"
     enableSystem
     disableTransitionOnChange
   >

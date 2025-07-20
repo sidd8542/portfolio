@@ -114,7 +114,7 @@ export const Skills = () => {
             </linearGradient>
           </defs>
           <polygon points="0,0 100,50 0,100" fill="url(#skillGrad)" className="animate-pulse">
-            <animateTransform
+            <animateTransform 
               attributeName="transform"
               attributeType="XML"
               type="translate"
@@ -176,7 +176,7 @@ export const Skills = () => {
           {Object.entries(skillCategories).map(([category, data], categoryIndex) => (
             <Card 
               key={category}
-              className={`group relative overflow-hidden transition-all duration-500 bg-card/80 backdrop-blur-lg border-primary/20 shadow-lg hover:shadow-2xl hover:border-primary/40 hover:scale-105 professional-hover click-ripple ${
+              className={`group relative overflow-hidden transition-all duration-500 bg-card/80 backdrop-blur-lg border-primary/20 shadow-lg hover:shadow-2xl hover:border-primary/40 hover:scale-105  ${
                 isVisible ? 'slide-up' : 'opacity-0'
               }`}
               style={{ animationDelay: `${categoryIndex * 100}ms` }}
